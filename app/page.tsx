@@ -7,7 +7,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="text-sm font-semibold tracking-tight">pinfinite</div>
           <a
-            href="https://github.com"
+            href="https://github.com/moroii69/pinfinite"
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs text-gray-600 hover:text-gray-900 transition-colors underline"

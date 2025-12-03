@@ -341,7 +341,7 @@ height: 100vh;`;
                 Home
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/moroii69/pinfinite"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg hover:bg-gray-100 transition-colors text-gray-600 hover:text-gray-900"
@@ -456,7 +456,11 @@ height: 100vh;`;
               }`}
             >
               <Heart
-                className={`w-3.5 h-3.5 ${Array.from(favorites).some((bg) => bg.id === currentBackground?.id) ? "fill-current" : ""}`}
+                className={`w-3.5 h-3.5 ${
+                  Array.from(favorites).some((bg) => bg.id === currentBackground?.id)
+                    ? "fill-current"
+                    : ""
+                }`}
               />
             </Button>
             <Button
